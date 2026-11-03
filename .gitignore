@@ -1,0 +1,19 @@
+# 构建产物
+*.exe
+*.dll
+*.res
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# 打包与签名。证书含本机私钥对应的公钥，按机器重新生成。
+pkg/
+*.cer
+*.pfx
+*.msix
+
+# 本机 Cursor 路径和安装日志
+cursor.path
+*.log
+*.bak
